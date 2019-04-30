@@ -1,0 +1,250 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0
+}
+.body{
+  background: url(images/stone-53.jpg);
+}
+html {
+  font-family: 'arial';
+  color:green;
+}
+
+#content {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/*
+* header
+*/
+.title {
+  line-height: 2.0;
+  display: inline-block;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+
+.scoreboard {
+  width: 600px;
+  height: 300px;
+  border-radius: 5px;
+  /* box-shadow: #344955 5px 5px; */
+}
+
+.sb-left {
+  width: 50%;
+  height: inherit;
+  float: left;
+  font-size:20px;
+  font-weight: 900;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.sb-right {
+  width: 50%;
+  height: inherit;
+  float: right;
+  font-size:20px;
+  font-weight: 700;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.sb-left table {
+  /* border: #cde solid 1px; */
+  width: 100%;
+}
+
+.sb-left table td {
+  /* border: #cde solid 0px; */
+  border: 0px;
+  padding: 5px 15px;
+}
+
+.sb-left table tr {
+  /* border: #cde solid 0px; */
+  /* border: #cde solid 1px; */
+  padding: 5px 15px;
+}
+
+.sb-right table {
+  table-layout: auto;
+  width: 100%;
+}
+
+.sb-right table td {
+  padding: 2px;
+}
+
+/*
+* card
+*/
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.img-box {
+  width: 200px;
+  height: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cardImg {
+  height: 200px;
+  margin: 0 5px;
+}
+
+/*
+* operation
+*/
+.operation {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#pour_input,
+#plus,
+#minus,
+#startBtn {
+  padding: 0 10px;
+  text-align: center;
+  border: #232f34 solid 1px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  height: 30px;
+  width: 70px;
+}
+
+#content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*
+* header
+*/
+.title {
+  line-height: 3.0;
+  display: inline-block;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+
+.scoreboard {
+  width: 100%;
+  height: 400px;
+
+  border-radius: 5px;
+  /* box-shadow: #344955 5px 5px; */
+}
+
+.sb-left {
+  width: 50%;
+  height: inherit;
+  float: left;
+  /* border: #cde solid 3px; */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.sb-right {
+  width: 50%;
+  height: inherit;
+  float: right;
+  /* border: #cde solid 3px; */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.sb-left table {
+  /* border: #cde solid 1px; */
+  width: 100%;
+}
+
+.sb-left table td {
+  /* border: #cde solid 0px; */
+  border: 0px;
+  padding: 5px 15px;
+}
+
+.sb-left table tr {
+  /* border: #cde solid 0px; */
+  /* border: #cde solid 1px; */
+  padding: 5px 15px;
+}
+
+.sb-right table {
+  table-layout: auto;
+  width: 100%;
+}
+
+.sb-right table td {
+  padding: 2px;
+}
+
+/*
+* card
+*/
+
+.cardImg {
+  height: 200px;
+  margin: 0 5px;
+}
+
+/*
+* operation
+*/
+.operation {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#pour_input,
+#plus,
+#minus,
+#startBtn {
+  padding: 0 10px;
+  text-align: center;
+  border-radius: 3px;
+  box-sizing: border-box;
+  height: 30px;
+  width: 70px;
+}
+
+.s1{
+  font-size: 13px;
+  color: red;
+}
